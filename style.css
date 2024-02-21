@@ -59,15 +59,37 @@ header #text {
 #ingredients-list > div {
     display: inline-block;
     vertical-align: top;
-    margin: 0 30px;
+    margin: 0 40px;
 
 }
 
 #ingredients-list p {
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 22px;
+    margin: 0 0 4px 0;
 }
 
 .strikethrough {
     text-decoration: line-through;
 }
+
+#contact-info > * {
+    display: inline-block;
+}
+
+#contact-info #name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#contact-info button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+footer {
+    text-align: center;
+}
+
