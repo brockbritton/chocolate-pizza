@@ -1,0 +1,43 @@
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    padding: 10px;
+}
+
+#top-left {
+    width: 100%;
+}
+
+header > img {
+    height: 75px;
+}
+
+header #text {
+    display: inline-block;
+
+}
+
+#blog-name {
+    font-size: 40px;
+    margin: 0;
+}
+
+
+
+#header-icons {
+    position: absolute;
+    display: inline-block;
+    width: max-content;
+    top: 50px;
+    right: 100px;
+}
+
+#grey-bar {
+    width: 100%;
+    background-color: lightgrey;
+    height: 30px;
+}
