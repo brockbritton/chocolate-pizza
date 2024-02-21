@@ -1,11 +1,12 @@
 
 body {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
 header {
     padding: 10px;
+    position: relative;
 }
 
 #top-left {
@@ -26,18 +27,47 @@ header #text {
     margin: 0;
 }
 
-
-
 #header-icons {
     position: absolute;
     display: inline-block;
     width: max-content;
     top: 50px;
-    right: 100px;
+    right: 0;
 }
 
 #grey-bar {
     width: 100%;
     background-color: lightgrey;
-    height: 30px;
+    height: 20px;
+}
+
+#choco-pizza-img {
+    width: 100%;
+}
+
+#block-instructions > p {
+    font-size: 18px;
+    text-indent: 2em;
+}
+
+#ingredients-list {
+    background-image: url('assets/list-bg.png');
+    padding: 10px;
+    
+}
+
+#ingredients-list > div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+
+}
+
+#ingredients-list p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
 }
