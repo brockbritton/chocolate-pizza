@@ -4,6 +4,10 @@ body {
     margin: auto;
 }
 
+.gray-text {
+    color: gray;
+}
+
 header {
     padding: 10px;
     position: relative;
@@ -39,6 +43,20 @@ header #text {
     width: 100%;
     background-color: lightgrey;
     height: 20px;
+}
+
+#page-title-container {
+    position: relative;
+}
+
+#print-option-container {
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+
+#print-option-container > * {
+    display: inline-block;
 }
 
 #choco-pizza-img {
@@ -87,9 +105,12 @@ header #text {
     padding: 15px 30px;
     font-size: 15px;
     vertical-align: top;
+    margin-top: 30px;
+    margin-left: 125px;
 }
 
 footer {
     text-align: center;
 }
+
 
